@@ -1,0 +1,38 @@
+### GET request to example server
+GET http://localhost:3001/api/users
+
+###
+GET http://localhost:3001/api/users/1
+
+###
+###
+POST http://localhost:3001/api/users
+Content-Type: application/json
+
+{
+  "name": "Bogumil,",
+  "species": "Pies",
+  "age": 18,
+  "isEndangered": true,
+  "habitat": "Bartag"
+}
+
+###
+
+###
+PUT http://localhost:3001/api/users/2
+Content-Type: application/json
+
+{
+  "name": "MalyMonek",
+  "species": "Mental",
+  "age": 2006,
+  "isEndangered": false,
+  "habitat": "Discord"
+}
+
+###
+
+###
+DELETE http://localhost:3000/api/users/1
+###
